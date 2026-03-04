@@ -1,3 +1,6 @@
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -188,3 +191,7 @@ data/*.sq*
 data/*/*.sq*
 data/*.SQ*
 data/*/*.SQ*
+# ignore raw data except ACS csv
+data/00-raw/*
+!data/00-raw/
+!data/00-raw/acs_median_income_2012.csv
